@@ -167,7 +167,18 @@ iframe {
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 49px;
+  padding-bottom: 10px;
+}
+
+.contact100-form-subtitle {
+  display: block;
+  font-family: Ubuntu-Bold;
+  font-size: 15px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 /*------------------------------------------------------------------
@@ -247,7 +258,7 @@ textarea.input100 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 60px;
 }
 
 .contact100-form-btn {
