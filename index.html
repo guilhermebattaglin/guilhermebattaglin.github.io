@@ -1,3 +1,32 @@
-<html>
-<a href="itms-services://?action=download-manifest&url=https://www.rock3.com.br/manifest.plist">Download app</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Download Beta iOS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Download Beta iOS
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Build code">
+					<input class="input100" type="text" name="name" id="buildcode" placeholder="Enter build code">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" onClick="javascript: window.open('https://guilhermebattaglin.com.br/toodoo/beta/' + document.getElementById('buildcode').value + '/manifest.plist');">
+						<span>Download</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
 </html>
